@@ -6,8 +6,13 @@ import matplotlib.pyplot as plt
 # plt.legend()
 # plt.show()
 
-categories=["A","B","C"]
-values=[15,8,10]
-plt.bar(categories,values,color="green")
-plt.title("BAR-CHART")
+# categories=["A","B","C"]
+# values=[15,8,10]
+# plt.bar(categories,values,color="green")
+# plt.title("BAR-CHART")
+# plt.show()
+
+data=[1,2,2,3,3,3,3]
+plt.hist(data,bins=3,color="blue", edgecolor="black")
+plt.title("HISTOGRAM")
 plt.show()
